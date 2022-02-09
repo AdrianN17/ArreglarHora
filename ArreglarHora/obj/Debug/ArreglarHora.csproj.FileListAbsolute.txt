@@ -1,0 +1,10 @@
+D:\Proyectos\ArreglarHora\ArreglarHora\bin\Debug\ArreglarHora.exe.config
+D:\Proyectos\ArreglarHora\ArreglarHora\bin\Debug\ArreglarHora.exe
+D:\Proyectos\ArreglarHora\ArreglarHora\bin\Debug\ArreglarHora.pdb
+D:\Proyectos\ArreglarHora\ArreglarHora\bin\Debug\Newtonsoft.Json.dll
+D:\Proyectos\ArreglarHora\ArreglarHora\bin\Debug\Newtonsoft.Json.xml
+D:\Proyectos\ArreglarHora\ArreglarHora\obj\Debug\ArreglarHora.csproj.SuggestedBindingRedirects.cache
+D:\Proyectos\ArreglarHora\ArreglarHora\obj\Debug\ArreglarHora.csproj.CoreCompileInputs.cache
+D:\Proyectos\ArreglarHora\ArreglarHora\obj\Debug\ArreglarHora.csproj.CopyComplete
+D:\Proyectos\ArreglarHora\ArreglarHora\obj\Debug\ArreglarHora.exe
+D:\Proyectos\ArreglarHora\ArreglarHora\obj\Debug\ArreglarHora.pdb
