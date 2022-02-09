@@ -1,5 +1,5 @@
 # ArreglarHora
- Pequeño programa para arreglar el reloj de windows 10
+ Pequeño programa para arreglar el reloj de windows 10, por medio de un [api web](http://worldtimeapi.org)
 
 ## Como usarlo
 
