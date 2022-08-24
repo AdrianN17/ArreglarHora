@@ -13,49 +13,41 @@ namespace ArreglarHora
         {
             if (IsAdministrator())
             {
-                var parser = new FileIniDataParser();
-                IniData data = parser.ReadFile("config.ini");
-
-                string gmtStrValue = data["CONFIG"]["gmt"];
-
-                int gmtValue = 0;
-
-                bool check = int.TryParse(gmtStrValue, out gmtValue);
-
-                if (check)
+                try
                 {
-                    Horario h = new Horario(gmtValue);
-                    
-                    try
+
+
+                    var parser = new FileIniDataParser();
+                    IniData data = parser.ReadFile("config.ini");
+
+                    string gmtStrValue = data["CONFIG"]["gmt"];
+
+                    int gmtValue = 0;
+
+                    bool check = int.TryParse(gmtStrValue, out gmtValue);
+
+                    if (check)
                     {
+                        Horario h = new Horario(gmtValue);
+                    
                         h.obtenerDataAsync().Wait();
                         Console.WriteLine("Fecha cambiada");
                     }
-                    catch (Exception ex)
+                    else
                     {
-                        Console.WriteLine("Ha ocurrido un error, verifique su conexion a internet");
-                        Console.WriteLine(ex.Message);
+                        Console.WriteLine("Error en leer .INI");
                     }
-                       
-
-                    
                 }
-                else
+                catch (Exception ex)
                 {
-                    Console.WriteLine("Error en leer .INI");
+                    Console.WriteLine("Ha ocurrido un error, verifique su conexion a internet");
+                    Console.WriteLine(ex.Message);
                 }
-
-                
-
-
-                
             }
             else
             {
                 Console.WriteLine("Ejecutelo como administrador");
             }
-
-            
 
             Console.ReadLine();
         }
