@@ -10,3 +10,4 @@ D:\Proyectos\ArreglarHora\ArreglarHora\bin\x64\Release\Newtonsoft.Json.xml
 D:\Proyectos\ArreglarHora\ArreglarHora\obj\x64\Release\ArreglarHora.csproj.CopyComplete
 D:\Proyectos\ArreglarHora\ArreglarHora\obj\x64\Release\ArreglarHora.exe
 D:\Proyectos\ArreglarHora\ArreglarHora\obj\x64\Release\ArreglarHora.pdb
+D:\Proyectos\ArreglarHora\ArreglarHora\obj\x64\Release\ArreglarHora.csproj.AssemblyReference.cache
